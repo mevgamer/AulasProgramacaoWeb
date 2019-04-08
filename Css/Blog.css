@@ -34,8 +34,8 @@ header ul{
 }
 
 header li a{
-    color: #99a0b0;
-    font-weight: lighter;
+    color: #ffffff;
+    font-weight: inherit;
     text-transform: uppercase;
 }
 
@@ -86,7 +86,7 @@ header li {
 }
 
 .container{
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%; 
 }
 
@@ -104,16 +104,21 @@ section {
 .identificacao h1{
     font-size: 2.5em;
     margin-bottom: 0.7em;
-    color:#ffffff;
+    color:#008B8B;
     font-weight: 800; 
-    font-family: Impact, fantasy;   
+    font-family: Impact, fantasy;
+    margin: 5%; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;  
 }
 
 .identificacao h2{
     font-size: 1.5em;
     font-weight: lighter;
     font-family: Impact, fantasy;
-    color: #ffffff;
+    color: #008B8B;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
 }
 
 section h3{
@@ -121,17 +126,13 @@ section h3{
     margin: 0.5em;
 }
 
-header li a {
-    color: #99a0b0
-}
-
 .escuras{
-    background-color: #2b313e;
+    background-color: #29738F;
     color: #fcfcfc;
 }
 
 .claras{
-    background-color: #fcfcfc;
+    background-color: #6096AA;
     color: #2b313e
 }
 
@@ -160,7 +161,8 @@ header li a {
 
 .styleprojetos li p{
     color: #fff;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
     text-align: justify;
     line-height: 1.2;
 }
@@ -203,9 +205,22 @@ footer{
 
 .bk-img{
     background-image: url("../imagens/BKs/bk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .prj-tt{
     font-size: 1.5em;
-    color: #ffffff
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000; 
+    font-weight: initial;
+}
+.jogo{
+    font-size: 20%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000; 
+    color: white;
+
 }
