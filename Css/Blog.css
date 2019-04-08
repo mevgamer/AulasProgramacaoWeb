@@ -4,6 +4,7 @@
 
 body {
     font-family:Helvetica, sans-serif;
+    background-image: url("../imagens/bk.jpg")
 }
 
 a{
@@ -13,6 +14,10 @@ a{
 section img {
     width: 100%;
     max-width: 300px;
+    }
+
+.rd1{
+    border-radius: 50%;
 }
 
 header{
@@ -46,33 +51,38 @@ header li {
 #contato li a{
     display: inline-block;
     margin: 1em;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     text-indent: -999999px;
 }
 
 #contato .email{
-    background-image: url("../imagens/email.png");
+    background-image: url("../imagens/icons/gm.png");
 }
 
 #contato .fcb{
-    background-image: url("../imagens/facebook.png");
+    background-image: url("../imagens/icons/fcb.png");
 }
 
 #contato .twitter{
-    background-image: url("../imagens/twitter.png");
+    background-image: url("../imagens/icons/twt.png");
 }
 
-#contato .linked{
-    background-image: url("../imagens/linkedin.png");
+#contato .twitch{
+    background-image: url("../imagens/icons/tw.png");
 }
 
 #contato .insta{
-    background-image: url("../imagens/insta.png");
+    background-image: url("../imagens/icons/inst.png");
 }
 
 #contato .opgg{
-    background-image: url("../imagens/insta.png");
+    background-image: url("../imagens/icons/op.png");
+    
+}
+
+#contato .youtube{
+    background-image: url("../imagens/icons/yt.png")
 }
 
 .container{
@@ -87,19 +97,23 @@ section {
 }
 
 .identificacao{
-    background-color: #579ff0;
-    color: #fcfcfd;
+    background-image: url("../imagens/BKs/kayn2.jpg");
     padding: 10em 2em 7em;
 }
 
 .identificacao h1{
     font-size: 2.5em;
-    margin-bottom: 0.7em;    
+    margin-bottom: 0.7em;
+    color:#ffffff;
+    font-weight: 800; 
+    font-family: Impact, fantasy;   
 }
 
 .identificacao h2{
     font-size: 1.5em;
     font-weight: lighter;
+    font-family: Impact, fantasy;
+    color: #ffffff;
 }
 
 section h3{
@@ -132,12 +146,16 @@ header li a {
 
 .styleprojetos {
     margin-left: 40%;
+    margin-bottom: 0.4em;
+    margin-top: 2em;
+    font-weight: 400;
 }
 
 .styleprojetos li{
-    background-color: #6f768b;
+    background-color:#0000007a;
     padding: 1em;
     margin-bottom: 2em;
+    border-radius: 25px
     }
 
 .styleprojetos li p{
@@ -181,3 +199,13 @@ footer{
         padding-top: 1em;
         padding-bottom: 1em;
     }
+
+
+.bk-img{
+    background-image: url("../imagens/BKs/bk.jpg");
+}
+
+.prj-tt{
+    font-size: 1.5em;
+    color: #ffffff
+}
